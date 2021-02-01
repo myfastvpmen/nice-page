@@ -39,7 +39,7 @@ const DashboardBeta = () => {
                   className="mr-3 mb-3"
                   onClick={e => {
                     e.preventDefault()
-                    window.open('https://naver.com', '_blank')
+                    window.open('https://google.com', '_blank')
                   }}
                 >
                   다운로드
