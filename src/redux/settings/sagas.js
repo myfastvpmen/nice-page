@@ -39,7 +39,7 @@ export function* SET_PRIMARY_COLOR({ payload: { color } }) {
 }
 
 export function* SET_THEME({ payload: { theme } }) {
-  const nextTheme = theme === 'dark' ? 'dark' : 'default'
+  const nextTheme = theme === 'dark' ? 'dark' : 'dark'
   yield document.querySelector('html').setAttribute('data-kit-theme', nextTheme)
   yield reduxStore.dispatch({
     type: 'settings/CHANGE_SETTING',
